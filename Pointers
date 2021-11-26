@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	double number1=7.3;
+	double *ptr=&number1;
+	double number2=*ptr;
+
+	cout<<"The value of number2 is: "<<number2<<endl;
+	cout<<"The value contained within the address is: "<<*ptr<<endl;	
+	return 0;
+}
